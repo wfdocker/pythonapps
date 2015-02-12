@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pip install -r /app/requirements.txt
+pip install --allow-all-external -r /app/requirements.txt
 
 exec "$@"
 
